@@ -14,7 +14,7 @@ class BookListTableTableViewController: UITableViewController {
     @IBOutlet weak var btnNext: UIBarButtonItem!
     
     //API key 개인정보이므로 숨겨야 함
-    let myApiKey = "KakaoAK 1a95eb4a68a02249b9de7cee29c97d73"
+    let myApiKey = "{API key}"
     var myDocuments: [[String: Any]]?
     var currentPage = 1{
         didSet{
